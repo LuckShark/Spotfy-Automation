@@ -31,9 +31,6 @@ test('deve tocar uma música', async ({ page }) => {
   await expect(pause).toBeVisible({ timeout: 2000 })
   await expect(play).toBeVisible({ timeout: 7000 }) 
 
-  // await page.click(`//div[contains(@class, "song")]//h6[text()="${song.title}"]/..//button`)
-  //await page.waitForTimeout(5000)
-
 
 });
 
